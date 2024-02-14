@@ -47,7 +47,7 @@ button:hover {
   margin-bottom: 16px;
 }
 
-header {
+header,#hot-deal {
   background: rgba(229, 84, 115, 0.10);
 }
 
@@ -78,7 +78,7 @@ header {
 
 /* featured */
 #featured {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 .section-content {
@@ -121,6 +121,10 @@ header {
   margin-top: 16px;
 }
 
+#support {
+  padding: 50px 0;
+}
+
 .support-section {
   border-radius: 8px;
   background: rgba(39, 39, 39, 0.05);
@@ -133,6 +137,17 @@ header {
 .support-info {
   text-align: center;
 }
-.support-info p{
+
+.support-info p {
   margin-top: 16px;
+}
+
+/* hot-deal */
+#hot-deal {
+  margin-top: 50px;
+}
+
+.hot-content {
+  display: flex;
+  justify-content: space-around;
 }
